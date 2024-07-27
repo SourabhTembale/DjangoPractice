@@ -3,14 +3,24 @@
 <head>
     <title>CSV Data</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
             font-size: 1em;
-            font-family: Arial, sans-serif;
             min-width: 400px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            background-color: #f9f9f9;
         }
         th, td {
             border: 1px solid #ddd;
@@ -18,17 +28,23 @@
             text-align: left;
         }
         th {
-            background-color: #f2f2f2;
+            background-color: #ffcccb;
             color: #333;
         }
         tr {
-            background-color: #f9f9f9;
+            background-color: #f1f8ff;
         }
         tr:nth-of-type(even) {
-            background-color: #f2f2f2;
+            background-color: #e6f7ff;
+        }
+        tr:nth-of-type(odd) {
+            background-color: #cce7ff;
         }
         tr:hover {
-            background-color: #ddd;
+            background-color: #b3d9ff;
+        }
+        td {
+            background-color: #d4eaff;
         }
     </style>
 </head>
